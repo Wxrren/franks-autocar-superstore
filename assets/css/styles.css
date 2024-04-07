@@ -1,0 +1,77 @@
+/*--------------------------------------------Header/navbar*/
+.container-fluid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 5vh;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-link.active {
+    background-color: rgba(255, 0, 0, 0.411);
+    border: 1px solid rgba(255, 0, 0, 0.781);
+    font-size: 1.3rem;
+}
+
+.navbar-toggler-icon {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+.nav-link {
+    background-color: #01012c;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-nav {
+    position: fixed;
+    right: 0;
+}
+
+/*--------------------------------------------Vehicle image/Section 1 */
+#carstore-image {
+    height: 70vh;
+    padding-top: 3.5vh;
+
+}
+
+.background-image {
+    height: 70vh;
+    width: 100vw;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -1;
+    animation-name: image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*--------------------------------------------image zoom effect*/
+.outer-image {
+    height: 70vh;
+    overflow: hidden;
+}
+
+
+
+@keyframes image-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
+
+/*--------------------------------------------End of Zoom effect*/
