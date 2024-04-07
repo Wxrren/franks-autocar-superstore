@@ -26,11 +26,11 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navcol-1">
                         <ul class="navbar-nav features">
-                            <li class="nav-item"><a class="nav-link active" href="index.html" aria-label="Home"><i
+                            <li class="nav-item"><a class="nav-link active"  href="index.html" aria-label="Home"><i
                                         class="fa-solid fa-house"></i></a></li>
-                            <li class="nav-item"><a class="nav-link for-sale" href="tournament.html">For Sale</a></li>
-                            <li class="nav-item"><a class="nav-link previous-sold" href="sign-in.html">Previously Sold</a></li>
-                            <li class="nav-item"><a class="nav-link contact-us" href="sign-in.html">Contact Us</a></li>
+                            <li class="nav-item"><a class="nav-link for-sale" id="sale-page" onmouseover="saleHover()" onmouseout="saleNormal()" href="tournament.html">For Sale</a></li>
+                            <li class="nav-item"><a class="nav-link previous-sold" id="sold-page" onmouseover="soldHover()" onmouseout="soldNormal()" href="sign-in.html">Previously Sold</a></li>
+                            <li class="nav-item"><a class="nav-link contact-us" id="contact-page" onmouseover="contactHover()" onmouseout="contactNormal()" href="sign-in.html">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -46,7 +46,15 @@
         </div>
         <!--Button created with Bootstrap.-->
         <h2 class="tagline">For quality cars, think Frank's!</h2>
-        <a href="sign-in.html" class="btn btn-info button browse" role="button" aria-label="Button to browse stock">Browse Our Stock</a>
+        <a href="sign-in.html" id="browse-button" class="btn btn-info button browse" role="button" aria-label="Button to browse stock">Browse Our Stock</a>
+    </section>
+
+     <!--cta = "vehicle action"-->
+     <section id="carstore-image">
+        <!--Background Image start-->
+
+        <!--Button created with Bootstrap.-->
+        <h2 class="">For quality cars, think Frank's!</h2>
     </section>
 
 
@@ -54,5 +62,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/aedb0e7ef4.js" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="assets/js/hover.js"></script>
 </body>
 </html>
