@@ -1,3 +1,13 @@
+/*--------------------------------------------Colours*/
+
+/*--------------------------------------------Font-Colours*/
+.tagline {
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
 /*--------------------------------------------Header/navbar*/
 .container-fluid {
     position: fixed;
@@ -52,7 +62,7 @@
     max-height: 100%;
     z-index: -1;
     animation-name: image-zoom;
-    animation-duration: 5s;
+    animation-duration: 30s;
     animation-fill-mode: forwards;
 }
 
@@ -75,3 +85,20 @@
 }
 
 /*--------------------------------------------End of Zoom effect*/
+
+.browse{
+    transform: translate(-50%, -50%);
+    position: relative;
+    left: 50vw;
+    top: -45vh;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.tagline {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
