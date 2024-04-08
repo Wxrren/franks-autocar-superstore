@@ -5,7 +5,7 @@ function saleHover() {
 
 function saleNormal() {
     document.getElementById("sale-page").style.fontSize = "100%";
-    document.getElementById("sale-page").style.backgroundColor = "lightskyblue";
+    document.getElementById("sale-page").style.backgroundColor = "";
 }
 
 function soldHover() {
@@ -15,7 +15,7 @@ function soldHover() {
 
 function soldNormal() {
     document.getElementById("sold-page").style.fontSize = "100%";
-    document.getElementById("sold-page").style.backgroundColor = "lightskyblue";
+    document.getElementById("sold-page").style.backgroundColor = "";
 }
 
 function contactHover() {
@@ -25,5 +25,5 @@ function contactHover() {
 
 function contactNormal() {
     document.getElementById("contact-page").style.fontSize = "100%";
-    document.getElementById("contact-page").style.backgroundColor = "lightskyblue";
+    document.getElementById("contact-page").style.backgroundColor = "";
 }
