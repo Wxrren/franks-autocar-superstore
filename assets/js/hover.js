@@ -36,9 +36,11 @@ function contactNormal() {
 function buttonHover() {
     document.getElementById("browse-button").style.fontSize = "150%";
     document.getElementById("browse-button").style.backgroundColor = "red";
+    document.getElementById("browse-button").style.fontWeight = "1000";
 }
 
 function buttonNormal() {
     document.getElementById("browse-button").style.fontSize = "100%";
     document.getElementById("browse-button").style.backgroundColor = "";
+    document.getElementById("browse-button").style.fontWeight = "";
 }
